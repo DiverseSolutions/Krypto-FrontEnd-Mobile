@@ -1,0 +1,20 @@
+{
+    "trading-vol-24h": "24ц арилцааны хэмжээ",
+    "fd-market-cap": "Fully diluted market cap",
+    "trade-vs-marketcap": "24h Volume / Market Cap",
+    "currency-title": "{{name}} өнөөдрийн ханш, {{symbol}} -с MNT | Krypto",
+    "24h-low-high": "24ц доод / 24ц дээд",
+    "7d-low-high": "7ө доод / 7ө дээд",
+    "market-dominance": "Зах зээлийн давамгайлал",
+    "trading-vol": "Арилжааны хэмжээ",
+    "ath": "Бүх цаг үеийн дээд",
+    "atl": "Бүх цаг үеийн доод",
+    "price-stats": "{{name}} Ханшийн мэдээлэл",
+    "name-price": "{{name}} Ханш",
+    "hour": "Цаг",
+    "introduction": "Танилцуулга",
+    "market-pairs": "Арилжаа",
+    "chart": "График",
+    "total-supply": "Нийт нийлүүлэлт",
+    "vol-24h-shorter": "24ц хэмжээ"
+}

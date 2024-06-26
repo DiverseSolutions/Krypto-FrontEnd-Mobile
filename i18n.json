@@ -1,0 +1,13 @@
+{
+    "locales": ["mn", "en"],
+    "defaultLocale": "mn",
+    "pages": {
+      "*": ["common"],
+      "/": ["home"],
+      "rgx:/currencies*": ["currencies"],
+      "rgx:/exchanges*": ["exchanges"],
+      "rgx:/news*": ["news"],
+      "rgx:/profile*": ["profile"]
+    },
+    "localeDetection": false
+  }

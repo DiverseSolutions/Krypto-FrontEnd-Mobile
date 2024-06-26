@@ -1,0 +1,19 @@
+name: (PROD) m.krypto.mn
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  ci:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - name: provide .env.production
+        run: echo "${{ secrets.DOTENV_PROD }}" | base64 -d > .env.production
+      - name: npm i
+        run: npm i --legacy-peer-deps
+      - name: build
+        run: npm run build

@@ -1,0 +1,21 @@
+{
+    "trading-vol-24h": "24h Trading Volume",
+    "fd-market-cap": "Fully diluted market cap",
+    "trade-vs-marketcap": "24h Volume / Market Cap",
+    "currency-title": "{{name}} Price Today, {{symbol}} to MNT | Krypto",
+    "24h-low-high": "24h low / 24h high",
+    "7d-low-high": "7d low / 7d high",
+    "market-dominance": "Market Dominance",
+    "trading-vol": "Trading Volume",
+    "ath": "All Time High",
+    "atl": "All Time Low",
+    "price-stats": "{{name}} Price Statistics",
+    "name-price": "{{name}} Price",
+    "hour": "Hour",
+    "introduction": "Introduction",
+    "market-pairs": "Market Pairs",
+    "chart": "Chart",
+    "pair": "Pair",
+    "vol-24h-shorter": "Volume 24h",
+    "total-supply": "Total Supply"
+}

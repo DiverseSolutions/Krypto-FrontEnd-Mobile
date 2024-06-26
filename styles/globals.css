@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: red;
+}
+.slider-arrow {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.arrow-btn {
+  top: 45%;
+}
+.next {
+  float: right;
+}
+
+.increase-color {
+  -webkit-animation: increase 4s alternate;
+}
+
+.decrease-color {
+  -webkit-animation: decrease 4s alternate;
+}
+
+@-webkit-keyframes increase {
+  50% {
+    color: green
+  }
+}
+
+@-webkit-keyframes decrease {
+  50% {
+    color: red
+  }
+}
